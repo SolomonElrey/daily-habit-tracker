@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useFarcaster } from '@farcaster/core';
-import supabase from '../Lib/SupaBase';
+import supabase from '../Lib/supabase';
 
 const HabitTracker = () => {
   const [habitCompleted, setHabitCompleted] = useState(false);
