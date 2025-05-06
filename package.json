@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@farcaster/core": "^0.16.0",
+    "@neynar/react": "^1.2.0",
+    "@pigment-css/react": "^0.0.30",
     "@supabase/supabase-js": "^2.49.4",
+    "hls.js": "^1.6.2",
     "next": "15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
